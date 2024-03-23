@@ -32,22 +32,31 @@ def GetResumeData(req: func.HttpRequest, resume: func.DocumentList) -> func.Http
 
 
 @app.route(route="GetVisitorCount", auth_level=func.AuthLevel.ANONYMOUS)
-def GetVisitorCount(req: func.HttpRequest) -> func.HttpResponse:
-    logging.info('Python HTTP trigger function processed a request.')
+@app.cosmos_db_input(
+    arg_name="count",
+    database_name="resume-db",
+    container_name="counter",
+    id="1",
+    partition_key="1",
+    connection="COSOMODB_CONN_STR"
+)
+@app.cosmos_db_output(
+    arg_name="updatedCount",
+    database_name="resume-db",
+    container_name="counter",
+    id="1",
+    partition_key="1",
+    connection="connect"
+)
+def GetVisitorCount(req: func.HttpRequest, count: func.DocumentList, updatedCount: func.Out[func.Document]) -> func.HttpResponse:
+    counter = count[0]
+    counter["count"] += 1
+    updatedCount.set(counter)
 
-    name = req.params.get('name')
-    if not name:
-        try:
-            req_body = req.get_json()
-        except ValueError:
-            pass
-        else:
-            name = req_body.get('name')
+    logging.info("Updated the visited count")
 
-    if name:
-        return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
-    else:
-        return func.HttpResponse(
-             "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.",
-             status_code=200
-        )
+    return func.HttpResponse(
+        status_code=200,
+        mimetype="application/json",
+        body=updatedCount.get().to_json()
+    )
