@@ -1,9 +1,15 @@
 name: Deploy Python project to Azure Function App
 
-on: [push]
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "api/**"
 
 env:
   AZURE_FUNCTIONAPP_NAME: "cloud-resume-api-func"
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: "api" # set this to the path to your function app project, defaults to the repository root
   PYTHON_VERSION: "3.10"
 
 jobs:
