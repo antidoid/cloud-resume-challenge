@@ -38,7 +38,7 @@ def GetResumeData(req: func.HttpRequest, resume: func.DocumentList) -> func.Http
     container_name="counter",
     id="1",
     partition_key="1",
-    connection="COSOMODB_CONN_STR"
+    connection="connect"
 )
 @app.cosmos_db_output(
     arg_name="updatedCount",
