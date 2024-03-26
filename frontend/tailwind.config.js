@@ -6,6 +6,10 @@ export default {
       colors: {
         cerulean: "#30a2ff",
       },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+      },
     },
   },
   plugins: [],

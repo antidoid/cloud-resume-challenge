@@ -1,13 +1,11 @@
 import "./App.css";
-import { Navbar } from "./components";
+import { Hero, Navbar } from "./components";
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#1d1d1f] text-white flex flex-col items-center">
+    <div className="min-h-screen bg-[#1d1d1f] text-white flex flex-col items-center font-inter">
       <Navbar />
-      <div className="pt-48">
-        <p>Hello, World</p>
-      </div>
+      <Hero />
     </div>
   );
 }
