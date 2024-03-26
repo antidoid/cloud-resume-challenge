@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Logo from "../assets/P-logo.png";
+import Logo from "../assets/logo.png";
 
 function Navbar() {
   return (
@@ -15,7 +15,7 @@ function Navbar() {
             <img
               src={Logo}
               alt="logo"
-              className="w-6 h-6 md:w-9 md:h-9 mt-[3px] cursor-pointer"
+              className="w-6 h-6 rounded-full md:w-9 md:h-9 mt-[3px] cursor-pointer"
             />
           </a>
         </li>
@@ -31,7 +31,7 @@ function Navbar() {
         <li className="p-2 hover:text-cerulean hover:scale-110 transition duration-200 ease-in-out cursor-pointer">
           <a href="#contact">Contact</a>
         </li>
-        <button className="flex items-center gap-1 bg-[#0064ff] hover:bg-[#0041a3] rounded-xl px-1 md:px-2 h-6 md:h-8 mt-1 hover:scale-110 transition duration-200 ease-in-out cursor-pointer">
+        <button className="flex items-center gap-1 bg-cerulean hover:bg-[#00579F] rounded-xl px-1 md:px-2 h-6 md:h-8 mt-1 hover:scale-110 transition duration-200 ease-in-out cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 256 256"
