@@ -16,10 +16,6 @@ function Hero() {
                     loop
                 />
             </h2>
-            <h3 className="text-sm md:texk-base mt-2">
-                This page has been visited <span className="text-orange-300">5</span>{" "}
-                times
-            </h3>
             <p className="text-gray-500 self-center text-base md:text-xl mt-4">
                 Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
                 cillum sint consectetur cupidatat.Lorem ipsum dolor sit amet, qui minim

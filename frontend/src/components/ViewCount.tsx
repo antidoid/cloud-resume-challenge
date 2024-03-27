@@ -1,9 +1,16 @@
+import { motion } from "framer-motion";
+
 function ViewCount() {
   return (
-    <div className="w-full relative">
-      <div className="w-24 h-10 absolute right-8 top-5 flex justify-center items-center rounded-3xl cursor-pointer bg-white/15 backdrop-blur-md">
+    <motion.div
+      initial={{ opacity: 0, scale: 0.25 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ type: "spring", duration: 0.7 }}
+      className="w-full relative"
+    >
+      <div className="max-w-60 h-10 p-2 group absolute right-8 top-5 flex justify-center items-center gap-2 rounded-3xl cursor-pointer bg-white/15 backdrop-blur-md">
         <svg
-          className="w-2/5 h-3/5"
+          className="w-5"
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -33,11 +40,14 @@ function ViewCount() {
             ></path>{" "}
           </g>
         </svg>
-        <div className="bg-cerulean font-semibold flex justify-center items-center px-2 mr-2 h-3/5 rounded-md text-sm">
+        <span className="tracking-[-1rem] overflow-hidden duration-300 ease-in-out group-hover:tracking-wider">
+          You're Viewer{" "}
+        </span>
+        <div className="bg-cerulean font-semibold flex justify-center items-center px-2 py-1 h-5 rounded-md text-sm">
           16
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
