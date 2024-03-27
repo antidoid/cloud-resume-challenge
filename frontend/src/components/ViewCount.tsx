@@ -8,7 +8,7 @@ function ViewCount() {
       transition={{ type: "spring", duration: 0.7 }}
       className="hidden md:block w-full relative"
     >
-      <div className="max-w-60 h-10 p-2 group absolute right-8 top-5 flex justify-center items-center gap-2 rounded-3xl cursor-pointer bg-white/15 backdrop-blur-md">
+      <div className="max-w-60 h-10 p-2 group absolute right-8 top-8 flex justify-center items-center gap-2 rounded-3xl cursor-pointer bg-white/15 backdrop-blur-md">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

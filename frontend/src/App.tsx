@@ -1,5 +1,5 @@
 import "./App.css";
-import { Hero, Navbar, ViewCount } from "./components";
+import { About, Hero, Navbar, ViewCount } from "./components";
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <Navbar />
       <ViewCount />
       <Hero />
+      <About />
     </div>
   );
 }
