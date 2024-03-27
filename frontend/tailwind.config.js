@@ -5,6 +5,8 @@ export default {
     extend: {
       colors: {
         cerulean: "#30a2ff",
+        back: "#1d1d1f",
+        altback: "#3D3D3D",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
