@@ -7,7 +7,7 @@ function Navbar() {
       initial={{ opacity: 0, scale: 0.25 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ type: "spring", duration: 0.7 }}
-      className="w-11/12 h-10 md:h-[52px] md:w-[550px] rounded-3xl bg-white/15 backdrop-blur-md fixed top-8 py-1 px-2 flex flex-col justify-center"
+      className="z-10 w-11/12 h-10 md:h-[52px] md:w-[550px] rounded-3xl bg-white/15 backdrop-blur-md fixed top-8 py-1 px-2 flex flex-col justify-center"
     >
       <ul className="w-full flex justify-between text-[8px] md:text-base">
         <li>

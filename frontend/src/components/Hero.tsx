@@ -1,5 +1,6 @@
 import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
+import { scroll } from "../utils";
 
 function Hero() {
   return (
@@ -46,6 +47,7 @@ function Hero() {
       </p>
       <motion.button
         className="absolute bottom-24 md:bottom-20 self-center justify-self-stretch flex items-center justify-center bg-cerulean hover:bg-[#00579F] rounded-xl md:rounded-2xl p-2 h-8 md:p-4 md:h-12 hover:scale-110 duration-200 ease-in-out cursor-pointer"
+        onClick={() => scroll("about")}
         initial={{ y: 200 }}
         animate={{ y: 0 }}
         transition={{
@@ -66,7 +68,7 @@ function Hero() {
             d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
           />
         </svg>
-        <span className="text-sm md:text-lg">Scroll Down</span>
+        <span className="text-sm md:text-lg ml-1">Scroll Down</span>
       </motion.button>
     </div>
   );
