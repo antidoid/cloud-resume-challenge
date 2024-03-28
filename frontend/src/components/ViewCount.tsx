@@ -6,7 +6,7 @@ function ViewCount() {
       initial={{ opacity: 0, scale: 0.25 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ type: "spring", duration: 0.7 }}
-      className="hidden md:block w-full relative"
+      className="z-10 hidden md:block w-full relative"
     >
       <div className="max-w-60 h-10 p-2 group absolute right-8 top-8 flex justify-center items-center gap-2 rounded-3xl cursor-pointer bg-white/15 backdrop-blur-md">
         <svg

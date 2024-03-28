@@ -4,7 +4,7 @@ import { scroll } from "../utils";
 
 function Hero() {
   return (
-    <div className="relative pt-36 md:pt-48 lg:w-3/5 m-4 min-h-screen md:ml-16 flex flex-col items-start">
+    <div className="relative pt-36 md:pt-48 m-4 min-h-screen md:ml-16 flex flex-col items-start px-8 lg:px-72">
       <h1 className="font-poppins font-extrabold text-4xl md:text-8xl">
         Hey, I'm Piyush<span className="text-cerulean">.</span>
       </h1>
