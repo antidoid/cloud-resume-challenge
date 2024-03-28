@@ -7,6 +7,7 @@ export default {
         cerulean: "#30a2ff",
         back: "#1d1d1f",
         altback: "#3D3D3D",
+        darkgray: "#232323",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

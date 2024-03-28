@@ -9,7 +9,7 @@ function Navbar() {
       transition={{ type: "spring", duration: 0.7 }}
       className="z-10 w-11/12 h-10 md:h-[52px] md:w-[550px] rounded-3xl bg-white/15 backdrop-blur-md fixed top-8 py-1 px-2 flex flex-col justify-center"
     >
-      <ul className="w-full flex justify-between text-[8px] md:text-base">
+      <ul className="w-full flex items-center justify-between text-[8px] md:text-base">
         <li>
           <a href="#hero">
             <img
@@ -31,7 +31,7 @@ function Navbar() {
         <li className="p-2 hover:text-cerulean hover:scale-110 transition duration-200 ease-in-out cursor-pointer">
           <a href="#contact">Contact</a>
         </li>
-        <button className="flex items-center md:gap-1 bg-cerulean hover:bg-[#00579F] rounded-xl px-1 md:px-2 h-6 md:h-8 mt-1 hover:scale-110 transition duration-200 ease-in-out cursor-pointer">
+        <button className="flex items-center md:gap-1 bg-cerulean hover:bg-[#00579F] rounded-xl px-1 md:px-2 h-6 md:h-8  hover:scale-110 transition duration-200 ease-in-out cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
