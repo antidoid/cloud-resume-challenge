@@ -4,7 +4,7 @@ import { scroll } from "../utils";
 
 function Hero() {
   return (
-    <div id="about" className="w-full min-h-screen bg-back px-8 lg:px-72">
+    <div id="hero" className="w-full min-h-screen bg-back px-8 lg:px-72">
       <div className="relative pt-36 md:pt-48 m-4 min-h-screen md:ml-16 flex flex-col items-start">
         <h1 className="font-poppins font-extrabold text-4xl md:text-8xl">
           Hey, I'm Piyush<span className="text-cerulean">.</span>
@@ -47,7 +47,7 @@ function Hero() {
           minim labore adipisicing minim sint cillum sint consectetur cupidatat.
         </p>
         <motion.button
-          className="absolute bottom-24 md:bottom-20 self-center justify-self-stretch flex items-center justify-center bg-cerulean hover:bg-[#00579F] rounded-xl md:rounded-2xl p-2 h-8 md:p-4 md:h-12 hover:scale-110 duration-200 ease-in-out cursor-pointer"
+          className="absolute bottom-24 md:bottom-20 self-center justify-self-stretch flex items-center justify-center bg-cerulean hover:bg-cerulean rounded-xl md:rounded-2xl p-2 h-8 md:p-4 md:h-12 hover:scale-110 duration-200 ease-in-out cursor-pointer"
           onClick={() => scroll("about")}
           initial={{ y: 200 }}
           animate={{ y: 0 }}

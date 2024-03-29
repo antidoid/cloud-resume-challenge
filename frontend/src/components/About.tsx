@@ -3,7 +3,7 @@ import PP from "../assets/pp.jpg";
 function About() {
   return (
     <div id="about" className="w-full min-h-screen bg-altback px-8 lg:px-72">
-      <div className="relative flex justify-end items-center mt-20">
+      <div className="relative flex justify-end items-center mt-36 md:mt-48">
         <div className="h-1 grow bg-white/20 self-end mb-4 mr-4 md:ml-10"></div>
         <h2 className="font-poppins font-extrabold text-4xl md:text-7xl text-right text-cerulean ">
           About Me.
@@ -110,7 +110,7 @@ function About() {
                   <g>
                     <path
                       d="M52 79.283V76C52 73.8783 52.8429 71.8434 54.3431 70.3431C55.8434 68.8429 57.8783 68 60 68H172C174.122 68 176.157 68.8429 177.657 70.3431C179.157 71.8434 180 73.8783 180 76V79.283L116 119.283L52 79.283ZM118.12 127.393C117.484 127.79 116.75 128 116 128C115.25 128 114.516 127.79 113.88 127.393L52 88.717V156C52 158.122 52.8429 160.157 54.3431 161.657C55.8434 163.157 57.8783 164 60 164H172C174.122 164 176.157 163.157 177.657 161.657C179.157 160.157 180 158.122 180 156V88.717L118.12 127.393Z"
-                      className="fill-[#3D3D3D]"
+                      className="fill-altback"
                     />
                   </g>
                 </svg>
