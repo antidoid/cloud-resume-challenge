@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Logo from "../assets/logo.png";
+import { scroll } from "../utils";
 
 function Navbar() {
   return (
@@ -10,26 +11,36 @@ function Navbar() {
       className="z-10 w-11/12 h-10 md:h-[52px] md:w-[550px] rounded-3xl bg-white/15 backdrop-blur-md fixed top-8 py-1 px-2 flex flex-col justify-center"
     >
       <ul className="w-full flex items-center justify-between text-[8px] md:text-base">
-        <li>
-          <a href="#hero">
-            <img
-              src={Logo}
-              alt="logo"
-              className="w-6 h-6 rounded-full md:w-9 md:h-9 mt-[3px] cursor-pointer"
-            />
-          </a>
+        <li onClick={() => scroll("hero")}>
+          <img
+            src={Logo}
+            alt="logo"
+            className="w-6 h-6 rounded-full md:w-9 md:h-9 mt-[3px] cursor-pointer"
+          />
         </li>
-        <li className="p-2 hover:text-cerulean hover:scale-110 transition duration-200 ease-in-out cursor-pointer">
-          <a href="#about">About Me</a>
+        <li
+          onClick={() => scroll("about")}
+          className="p-2 hover:text-cerulean hover:scale-110 transition duration-200 ease-in-out cursor-pointer"
+        >
+          About Me
         </li>
-        <li className="p-2 hover:text-cerulean hover:scale-110 transition duration-200 ease-in-out cursor-pointer">
-          <a href="#projects">Projects</a>
+        <li
+          onClick={() => scroll("projects")}
+          className="p-2 hover:text-cerulean hover:scale-110 transition duration-200 ease-in-out cursor-pointer"
+        >
+          Projects
         </li>
-        <li className="p-2 hover:text-cerulean hover:scale-110 transition duration-200 ease-in-out cursor-pointer">
-          <a href="#certs">Certifications</a>
+        <li
+          onClick={() => scroll("certs")}
+          className="p-2 hover:text-cerulean hover:scale-110 transition duration-200 ease-in-out cursor-pointer"
+        >
+          Certifications
         </li>
-        <li className="p-2 hover:text-cerulean hover:scale-110 transition duration-200 ease-in-out cursor-pointer">
-          <a href="#contact">Contact</a>
+        <li
+          onClick={() => scroll("contact")}
+          className="p-2 hover:text-cerulean hover:scale-110 transition duration-200 ease-in-out cursor-pointer"
+        >
+          Contact
         </li>
         <button className="flex items-center md:gap-1 bg-cerulean hover:bg-[#00579F] rounded-xl px-1 md:px-2 h-6 md:h-8  hover:scale-110 transition duration-200 ease-in-out cursor-pointer">
           <svg
