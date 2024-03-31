@@ -6,11 +6,21 @@ function Hero() {
   return (
     <div id="hero" className="w-full min-h-screen bg-back px-8 lg:px-72">
       <div className="relative pt-36 md:pt-48 m-4 min-h-screen md:ml-16 flex flex-col items-start">
-        <h1 className="font-poppins font-extrabold text-4xl md:text-8xl">
+        <motion.h1
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ type: "spring", duration: 1 }}
+          className="font-poppins font-extrabold text-4xl md:text-8xl"
+        >
           Hey, I'm Piyush<span className="text-cerulean">.</span>
-        </h1>
-        <h2 className="font-semibold text-xl md:text-3xl mt-4 md:mt-8">
-          I'm a {}
+        </motion.h1>
+        <motion.h2
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ type: "spring", duration: 3 }}
+          className="font-semibold text-xl md:text-3xl mt-4 md:mt-8"
+        >
+          <span className="mr-2">I'm a</span>
           <ReactTyped
             className="text-cerulean selection:text-white"
             strings={["Web Developer", "Cloud Engineer", "DevOps Nerd"]}
@@ -18,7 +28,7 @@ function Hero() {
             backSpeed={40}
             loop
           />
-        </h2>
+        </motion.h2>
         <div className="flex items-center justify-center mt-2 text-sm">
           <svg
             xmlns="http://www.w3.org/2000/svg"

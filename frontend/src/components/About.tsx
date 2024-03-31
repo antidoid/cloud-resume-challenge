@@ -2,8 +2,11 @@ import PP from "../assets/pp.jpg";
 
 function About() {
   return (
-    <div id="about" className="w-full min-h-screen bg-altback px-8 lg:px-72">
-      <div className="relative flex justify-end items-center mt-36 md:mt-48">
+    <div
+      id="about"
+      className="w-full min-h-screen bg-altback py-36 md:py-48 px-8 lg:px-72"
+    >
+      <div className="relative flex justify-end items-center">
         <div className="h-1 grow bg-white/20 self-end mb-4 mr-4 md:ml-10"></div>
         <h2 className="font-poppins font-extrabold text-4xl md:text-7xl text-right text-cerulean ">
           About Me.

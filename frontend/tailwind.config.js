@@ -8,6 +8,7 @@ export default {
         back: "#1d1d1f",
         altback: "#3D3D3D",
         darkgray: "#232323",
+        offwhite: "#ebecf3",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
