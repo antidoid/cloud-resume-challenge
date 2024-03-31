@@ -1,5 +1,12 @@
 import "./App.css";
-import { About, Hero, Navbar, ViewCount } from "./components";
+import {
+  About,
+  Hero,
+  Navbar,
+  ViewCount,
+  Certifications,
+  Projects,
+} from "./components";
 
 function App() {
   return (
@@ -8,6 +15,8 @@ function App() {
       <ViewCount />
       <Hero />
       <About />
+      <Projects />
+      <Certifications />
     </div>
   );
 }

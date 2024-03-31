@@ -13,7 +13,9 @@ function About() {
         <div className="md:w-2/5 md:px-8 flex flex-col items-center">
           <img src={PP} className="rounded-full w-48 h-48" />
           <div className="px-2 pt-4 flex flex-col items-center justify-center">
-            <h4 className="font-semibold text-xl">Tech Stack and Expertise</h4>
+            <h4 className="font-semibold text-xl text-center">
+              Tech Stack and Expertise
+            </h4>
             <div className="mt-4 flex justify-center flex-wrap gap-2 text-lg">
               <span className="px-3 py-1 bg-darkgray rounded-xl">
                 Javascript
@@ -33,7 +35,7 @@ function About() {
                 Typescript
               </span>
             </div>
-            <div className="flex w-full justify-start gap-4 flex-wrap mt-8 self-start">
+            <div className="flex w-full justify-center gap-4 flex-wrap mt-8 self-start">
               <span className="text-cerulean text-lg hover:underline duration-300">
                 My Socials -&#62;
               </span>
@@ -118,7 +120,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="mt-4 md:mt-0 flex grow flex-col gap-4 md:w-3/5 text-white/90 text-xl">
+        <div className="mt-4 md:mt-0 flex grow flex-col gap-4 font-poppins font-extralight md:w-3/5 text-white/90 text-xl">
           <p>
             Lorem ipsum dolor sit amet, officia excepteur ex fugiat
             reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit
