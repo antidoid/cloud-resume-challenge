@@ -9,15 +9,15 @@ function Certificate({
 }) {
   return (
     <div className="h-96 flex flex-col">
-      <div className="rounded-lg flex justify-center grow group relative overflow-hidden p-10 bg-darkgray">
+      <div className="rounded-lg flex justify-center grow relative overflow-hidden p-10 bg-darkgray">
         <img
-          className="rounded-lg h-full w-5/6 absolute top-14 group-hover:rotate-2 group-hover:scale-105 duration-300"
+          className="rounded-lg h-full w-5/6 absolute top-14"
           alt={`${certName} certificate`}
           src={certSrc}
         />
       </div>
       <div className="h-10 flex flex-wrap mt-4">
-        <p className="text-2xl text-offwhite text-center font-bold font-poppins">
+        <p className="text-xl md:text-2xl text-offwhite text-center font-bold font-poppins">
           {certName}
         </p>
         <div className="h-[2px] grow bg-white/20 self-end mb-2 mx-3"></div>
