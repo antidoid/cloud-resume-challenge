@@ -15,7 +15,7 @@ function Navbar() {
           <img
             src={Logo}
             alt="logo"
-            className="w-6 h-6 rounded-full md:w-9 md:h-9 mt-[3px] cursor-pointer"
+            className="w-6 h-6 rounded-full md:w-9 md:h-9 mt-[3px] cursor-pointer hover:scale-105 duration-200"
           />
         </li>
         <li
@@ -42,7 +42,7 @@ function Navbar() {
         >
           Contact
         </li>
-        <button className="flex items-center md:gap-1 bg-cerulean hover:bg-[#00579F] rounded-xl px-1 md:px-2 h-6 md:h-8  hover:scale-110 transition duration-200 ease-in-out cursor-pointer">
+        <button className="flex items-center md:gap-1 bg-cerulean rounded-xl px-1 md:px-2 h-6 md:h-8 hover:bg-[#00579F] hover:scale-105 duration-200 ease-in-out cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

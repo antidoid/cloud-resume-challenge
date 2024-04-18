@@ -23,7 +23,7 @@ function Hero() {
           <span className="mr-2">I'm a</span>
           <ReactTyped
             className="text-cerulean selection:text-white"
-            strings={["Web Developer", "Cloud Engineer", "DevOps Nerd"]}
+            strings={["Web Developer", "Cloud Engineer", "DevOps Enthusiast"]}
             typeSpeed={80}
             backSpeed={40}
             loop
@@ -57,7 +57,7 @@ function Hero() {
           minim labore adipisicing minim sint cillum sint consectetur cupidatat.
         </p>
         <motion.button
-          className="absolute bottom-24 md:bottom-20 self-center justify-self-stretch flex items-center justify-center bg-cerulean hover:bg-cerulean rounded-xl md:rounded-2xl p-2 h-8 md:p-4 md:h-12 hover:scale-110 duration-200 ease-in-out cursor-pointer"
+          className="absolute bottom-24 md:bottom-20 self-center justify-self-stretch flex items-center justify-center bg-cerulean rounded-xl md:rounded-2xl p-2 h-8 md:p-4 md:h-12 hover:bg-[#00579F] hover:scale-105 duration-200 ease-in-out cursor-pointer"
           onClick={() => scroll("about")}
           initial={{ y: 200 }}
           animate={{ y: 0 }}

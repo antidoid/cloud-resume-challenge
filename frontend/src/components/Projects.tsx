@@ -22,7 +22,7 @@ function Projects() {
           projectName="SpotArt"
           projectLink="https://antidoid.github.io/spot-art"
           projectSrc={SpotArtImg}
-          tools={["React", "tailwind", "lottiefiles", "SpotifyAPI"]}
+          tools={["React", "TailwindCSS", "lottiefiles", "SpotifyAPI"]}
           projectShortDesc="A beautiful webpage to check out your favourite music artists."
         />
         <Project
@@ -30,7 +30,7 @@ function Projects() {
           projectName="Quizzical"
           projectLink="https://antidoid.github.io/quizzical"
           projectSrc={QuizzicalImg}
-          tools={["React", "tailwind", "lottiefiles", "SpotifyAPI"]}
+          tools={["React", "JavaScript", "CSS", "OpenTriviaDB"]}
           projectShortDesc="A quiz app using the Open Trivia DB and React"
         />
         <Project
@@ -38,7 +38,7 @@ function Projects() {
           projectName="Cloud Resume Challenge"
           projectLink="https://www.piyushsingh.me"
           projectSrc={CloudResumeChallengeImg}
-          tools={["React", "tailwind", "lottiefiles", "SpotifyAPI"]}
+          tools={["CosomosDB", "Azure Functions", "Azure CDN", "Framer Motion"]}
           projectShortDesc="Portfolio website using the powers of cloud computing"
         />
         <Project
@@ -46,7 +46,7 @@ function Projects() {
           projectName="QR Code Gen"
           projectLink="https://antidoid.github.io/az-qr-code"
           projectSrc={AZQRCodeImg}
-          tools={["React", "tailwind", "lottiefiles", "SpotifyAPI"]}
+          tools={["TypeScript", "Python", "Azure BLOB Storage", "Azure Function"]}
           projectShortDesc="A Dynamic QR Code Generator with so many colors and styles to choose from."
         />
       </div>

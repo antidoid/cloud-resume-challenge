@@ -14,9 +14,9 @@ export default function Contact() {
         <h2 className="mt-8 md:mt-24 font-extrabold tracking-wide text-center text-4xl md:text-7xl text-offwhite">Reach out to me</h2>
         <p className="pt-8 w-4/5 opacity-70 text-lg md:text-xl text-center">
           Shoot me an email if you want to connect! You can also find me on{" "}
-          <a href="https://www.linkedin.com/in/piyushsingh998" target="_blank" className="text-cerulean font-medium">Linkedin</a>
+          <a href="https://www.linkedin.com/in/piyushsingh998" target="_blank" className="text-cerulean font-medium hover:underline">Linkedin</a>
           {" "}or{" "}
-          <a href="https://twitter.com/piyushsingh998" target="_blank" className="text-cerulean font-medium">Twitter</a>
+          <a href="https://twitter.com/piyushsingh998" target="_blank" className="text-cerulean font-medium hover:underline">Twitter</a>
           {" "}if that's more your speed.
         </p>
       </div>
