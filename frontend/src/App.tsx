@@ -6,6 +6,7 @@ import {
   ViewCount,
   Certifications,
   Projects,
+  Contact,
 } from "./components";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Projects />
       <Certifications />
+      <Contact />
     </div>
   );
 }
