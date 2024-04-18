@@ -22,24 +22,32 @@ function Projects() {
           projectName="SpotArt"
           projectLink="https://antidoid.github.io/spot-art"
           projectSrc={SpotArtImg}
+          tools={["React", "tailwind", "lottiefiles", "SpotifyAPI"]}
+          projectShortDesc="A beautiful webpage to check out your favourite music artists."
         />
         <Project
           githubLink="https://github.com/antidoid/quizzical"
           projectName="Quizzical"
           projectLink="https://antidoid.github.io/quizzical"
           projectSrc={QuizzicalImg}
+          tools={["React", "tailwind", "lottiefiles", "SpotifyAPI"]}
+          projectShortDesc="A quiz app using the Open Trivia DB and React"
         />
         <Project
           githubLink="https://github.com/antidoid/cloud-resume-challenge"
           projectName="Cloud Resume Challenge"
           projectLink="https://www.piyushsingh.me"
           projectSrc={CloudResumeChallengeImg}
+          tools={["React", "tailwind", "lottiefiles", "SpotifyAPI"]}
+          projectShortDesc="Portfolio website using the powers of cloud computing"
         />
         <Project
           githubLink="https://github.com/antidoid/az-qr-code"
           projectName="QR Code Gen"
           projectLink="https://antidoid.github.io/az-qr-code"
           projectSrc={AZQRCodeImg}
+          tools={["React", "tailwind", "lottiefiles", "SpotifyAPI"]}
+          projectShortDesc="A Dynamic QR Code Generator with so many colors and styles to choose from."
         />
       </div>
     </div>

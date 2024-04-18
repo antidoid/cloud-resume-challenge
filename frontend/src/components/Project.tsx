@@ -12,9 +12,11 @@ interface ProjectProps {
   projectName: string;
   projectLink: string;
   githubLink: string,
+  tools: string[],
+  projectShortDesc: string
 }
 
-export function Project({ projectSrc, projectName, projectLink, githubLink }: ProjectProps) {
+export function Project({ projectSrc, projectName, projectLink, githubLink, tools, projectShortDesc }: ProjectProps) {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
@@ -60,6 +62,12 @@ export function Project({ projectSrc, projectName, projectLink, githubLink }: Pr
               />
             </svg>
           </a>
+        </div>
+        <div className="flex font-medium text-cerulean mt-1 text-base">{tools.reduce((acc, curr) => (acc + " - " + curr))}</div>
+        <div>
+          <p className="text-offwhite text-xl tracking-wide font-extralight">{projectShortDesc}
+            <span onClick={() => setIsOpen(true)} className="text-base font-medium hover:underline text-cerulean cursor-pointer">{" "}Learn more {">"}</span>
+          </p>
         </div>
       </div>
       <ProjectDetails isOpen={isOpen} setIsOpen={setIsOpen}>
