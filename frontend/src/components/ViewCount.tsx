@@ -41,7 +41,7 @@ function ViewCount() {
           />
         </svg>
         <span className="tracking-[-1rem] overflow-hidden duration-300 ease-in-out group-hover:tracking-wider">
-          You're Viewer{" "}
+          You're Visitor{" "}
         </span>
         <div className="bg-cerulean font-semibold flex justify-center items-center px-2 py-1 h-5 rounded-md text-sm group-hover:bg-[#00579F] duration-500">
           {count}

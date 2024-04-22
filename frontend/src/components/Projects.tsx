@@ -38,7 +38,7 @@ function Projects() {
           projectName="Cloud Resume Challenge"
           projectLink="https://www.piyushsingh.me"
           projectSrc={CloudResumeChallengeImg}
-          tools={["CosomosDB", "Azure Functions", "Azure CDN", "Framer Motion"]}
+          tools={["CosomosDB", "Azure Functions", "Azure CDN", "Terraform"]}
           projectShortDesc="Portfolio website using the powers of cloud computing"
         />
         <Project

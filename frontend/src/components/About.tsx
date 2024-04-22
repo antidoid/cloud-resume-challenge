@@ -21,7 +21,7 @@ function About() {
             </h4>
             <div className="mt-4 flex justify-center flex-wrap gap-2 text-lg">
               <span className="px-3 py-1 bg-darkgray rounded-xl">
-                Javascript
+                Typescript
               </span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">NodeJS</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">Python</span>
@@ -35,7 +35,7 @@ function About() {
               <span className="px-3 py-1 bg-darkgray rounded-xl">MySQL</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">Git</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">
-                Typescript
+                Terraform
               </span>
             </div>
             <div className="flex w-full justify-center gap-4 flex-wrap mt-8 self-start">

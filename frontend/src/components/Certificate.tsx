@@ -16,12 +16,12 @@ function Certificate({
           src={certSrc}
         />
       </div>
-      <div className="h-10 flex flex-wrap mt-4">
-        <p className="text-xl md:text-2xl text-offwhite text-center font-bold font-poppins">
+      <div className="min-h-10 flex flex-wrap mt-4">
+        <p className="max-w-40 md:max-w-48 2xl:max-w-60 text-xl md:text-2xl text-offwhite font-bold font-poppins">
           {certName}
         </p>
         <div className="h-[2px] grow bg-white/20 self-end mb-2 mx-3"></div>
-        <a href={certLink} target="_blank">
+        <a href={certLink} target="_blank" className="flex items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

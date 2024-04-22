@@ -42,7 +42,10 @@ function Navbar() {
         >
           Contact
         </li>
-        <button className="flex items-center md:gap-1 bg-cerulean rounded-xl px-1 md:px-2 h-6 md:h-8 hover:bg-[#00579F] hover:scale-105 duration-200 ease-in-out cursor-pointer">
+        <a
+          href="https://drive.google.com/file/d/13vV9QVRZPGRQxUOSZHb27SbDKXrbK8hm/view?usp=sharing"
+          target="_blank"
+          className="flex items-center md:gap-1 bg-cerulean rounded-xl px-1 md:px-2 h-6 md:h-8 hover:bg-[#00579F] hover:scale-105 duration-200 ease-in-out cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -58,7 +61,7 @@ function Navbar() {
             />
           </svg>
           <span>Resume</span>
-        </button>
+        </a>
       </ul>
     </motion.nav>
   );
