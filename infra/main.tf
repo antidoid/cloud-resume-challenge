@@ -146,6 +146,18 @@ resource "azurerm_cdn_endpoint" "portfolio-cdn-endpoint" {
   }
 
   origin_host_header = azurerm_storage_account.portfoliostorage.primary_web_host
+
+  delivery_rule {
+    name  = "HttpToHttps"
+    order = 1
+    request_scheme_condition {
+      match_values = ["HTTP"]
+    }
+    url_redirect_action {
+      redirect_type = "Found"
+      protocol      = "Https"
+    }
+  }
 }
 
 resource "azurerm_cdn_endpoint_custom_domain" "personaldomain" {
