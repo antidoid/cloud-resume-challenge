@@ -141,6 +141,8 @@ resource "azurerm_cdn_endpoint" "portfolio-cdn-endpoint" {
     name      = "portfoliocdnendpoint"
     host_name = azurerm_storage_account.portfoliostorage.primary_web_host
   }
+
+  origin_host_header = azurerm_storage_account.portfoliostorage.primary_web_host
 }
 
 resource "azurerm_cdn_endpoint_custom_domain" "personaldomain" {
