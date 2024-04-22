@@ -43,6 +43,9 @@ resource "azurerm_linux_function_app" "portfolio-func-app" {
     application_stack {
       python_version = "3.10"
     }
+    cors {
+      allowed_origins = ["https://${azurerm_cdn_endpoint_custom_domain.personaldomain.host_name}"]
+    }
   }
 
   connection_string {
