@@ -8,7 +8,7 @@ on:
       - "api/**"
 
 env:
-  AZURE_FUNCTIONAPP_NAME: "cloud-resume-api-func"
+  AZURE_FUNCTIONAPP_NAME: "portfolio-func-app-29"
   AZURE_FUNCTIONAPP_PACKAGE_PATH: "api" # set this to the path to your function app project, defaults to the repository root
   PYTHON_VERSION: "3.10"
 
