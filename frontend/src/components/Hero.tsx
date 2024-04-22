@@ -51,13 +51,13 @@ function Hero() {
           </svg>
           <span>Bangalore, IN</span>
         </div>
-        <p className="md:w-3/4 2xl:w-1/2 text-gray-500 self-center text-base md:text-xl pt-24 sm:pt-4 md:pt-12 2xl:mt-24">
+        <p className="grow md:w-3/4 2xl:w-1/2 self-center flex flex-col justify-center text-gray-500 text-base md:text-xl pb-8 md:pb-16">
           Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
           cillum sint consectetur cupidatat.Lorem ipsum dolor sit amet, qui
           minim labore adipisicing minim sint cillum sint consectetur cupidatat.
         </p>
         <motion.button
-          className="absolute bottom-24 md:bottom-8 2xl:bottom-32 self-center justify-self-stretch flex items-center justify-center bg-cerulean rounded-xl md:rounded-2xl p-2 h-8 md:p-4 md:h-12 hover:bg-[#00579F] hover:scale-105 duration-200 ease-in-out cursor-pointer"
+          className="absolute bottom-16 md:bottom-8 2xl:bottom-28 self-center justify-self-stretch flex items-center justify-center bg-cerulean rounded-xl md:rounded-2xl p-2 h-8 md:p-4 md:h-12 hover:bg-[#00579F] hover:scale-105 duration-200 ease-in-out cursor-pointer"
           onClick={() => scroll("about")}
           initial={{ y: 200 }}
           animate={{ y: 0 }}
