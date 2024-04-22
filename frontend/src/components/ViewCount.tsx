@@ -7,7 +7,7 @@ function ViewCount() {
     async function fetchCount() {
       const res = await fetch("https://portfolio-func-app-29.azurewebsites.net/api/GetVisitorCount")
       if (res.ok) {
-        const { countValue } = await res.json()
+        const { count: countValue } = await res.json()
         setCount(countValue)
       }
     }
