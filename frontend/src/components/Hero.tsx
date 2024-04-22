@@ -57,7 +57,7 @@ function Hero() {
           minim labore adipisicing minim sint cillum sint consectetur cupidatat.
         </p>
         <motion.button
-          className="absolute bottom-16 md:bottom-8 2xl:bottom-28 self-center justify-self-stretch flex items-center justify-center bg-cerulean rounded-xl md:rounded-2xl p-2 h-8 md:p-4 md:h-12 hover:bg-[#00579F] hover:scale-105 duration-200 ease-in-out cursor-pointer"
+          className="absolute bottom-16 md:bottom-8 2xl:bottom-20 self-center justify-self-stretch flex items-center justify-center bg-cerulean rounded-xl md:rounded-2xl p-2 h-8 md:p-4 md:h-12 hover:bg-[#00579F] hover:scale-105 duration-200 ease-in-out cursor-pointer"
           onClick={() => scroll("about")}
           initial={{ y: 200 }}
           animate={{ y: 0 }}
