@@ -42,7 +42,7 @@ app = func.FunctionApp()
 )
 @app.cosmos_db_output(
     arg_name="updatedCount",
-    database_name="resume-db",
+    database_name="portfolio-db",
     container_name="counter",
     id="1",
     partition_key="1",

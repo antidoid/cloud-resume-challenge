@@ -1,6 +1,18 @@
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 function ViewCount() {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    async function fetchCount() {
+      const res = await fetch("https://portfolio-func-app-29.azurewebsites.net/api/GetVisitorCount")
+      if (res.ok) {
+        const { countValue } = await res.json()
+        setCount(countValue)
+      }
+    }
+    fetchCount()
+  }, [])
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.25 }}
@@ -32,7 +44,7 @@ function ViewCount() {
           You're Viewer{" "}
         </span>
         <div className="bg-cerulean font-semibold flex justify-center items-center px-2 py-1 h-5 rounded-md text-sm group-hover:bg-[#00579F] duration-500">
-          16
+          {count}
         </div>
       </div>
     </motion.div>
