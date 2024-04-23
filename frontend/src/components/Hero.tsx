@@ -5,7 +5,7 @@ import { scroll } from "../utils";
 function Hero() {
   return (
     <div id="hero" className="w-full min-h-screen h-dvh bg-back px-8 lg:px-72">
-      <div className="relative pt-36 md:pt-48 m-4 h-screen md:ml-16 flex flex-col items-start">
+      <div className="relative m-4 h-screen md:ml-16 flex flex-col justify-center items-start">
         <motion.h1
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
@@ -29,7 +29,11 @@ function Hero() {
             loop
           />
         </motion.h2>
-        <div className="flex items-center justify-center mt-2 text-sm">
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ type: "spring", duration: 1.5 }}
+          className="flex items-center justify-center mt-2 text-sm">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -50,19 +54,21 @@ function Hero() {
             />
           </svg>
           <span>Bangalore, IN</span>
-        </div>
-        <p className="grow md:w-3/4 2xl:w-1/2 self-center flex flex-col justify-center text-gray-500 text-base md:text-xl pb-8 md:pb-16">
-          Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
-          cillum sint consectetur cupidatat.Lorem ipsum dolor sit amet, qui
-          minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-        </p>
+        </motion.div>
+        <motion.p
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ type: "spring", duration: 2 }}
+          className="md:w-1/2 mt-4 text-gray-500 text-base md:text-xl pb-8 md:pb-16">
+          I'm a <span className="text-cerulean font-semibold">MERN</span> stack developer with a knack for building and automating cloud infrastructure.
+        </motion.p>
         <motion.button
           className="absolute bottom-20 md:bottom-8 2xl:bottom-20 self-center justify-self-stretch flex items-center justify-center bg-cerulean rounded-xl md:rounded-2xl p-2 h-8 md:p-4 md:h-12 hover:bg-[#00579F] hover:scale-105 duration-200 ease-in-out cursor-pointer"
           onClick={() => scroll("about")}
-          initial={{ y: 200 }}
+          initial={{ y: 150 }}
           animate={{ y: 0 }}
           transition={{
-            y: { duration: 0.2, ease: "easeOut" },
+            y: { duration: 1, ease: "easeOut" },
           }}
         >
           <svg

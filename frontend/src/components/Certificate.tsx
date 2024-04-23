@@ -8,7 +8,7 @@ function Certificate({
   certLink: string;
 }) {
   return (
-    <div className="h-96 flex flex-col">
+    <div className="h-80 flex flex-col">
       <div className="rounded-lg flex justify-center grow relative overflow-hidden p-10 bg-darkgray">
         <img
           className="rounded-lg h-full w-5/6 absolute top-14"
