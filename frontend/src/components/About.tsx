@@ -35,6 +35,7 @@ function About() {
               <span className="px-3 py-1 bg-darkgray rounded-xl">Tailwind</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">MySQL</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">Git</span>
+              <span className="px-3 py-1 bg-darkgray rounded-xl">Docker</span>
               <span className="px-3 py-1 bg-darkgray rounded-xl">
                 Terraform
               </span>
