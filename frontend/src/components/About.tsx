@@ -134,7 +134,8 @@ function About() {
             <span className="text-cerulean font-semibold">Doraemon</span>
             <img className="w-6 h-6 mx-2 inline-block" src={DoraemonImg} alt="Doraemon joy face" />.
             Since then, I've been hooked — whether it's reading computer books, sketching laptops,
-            or trying out games on a friend's new laptop, I've done it all.
+            trying out games on a friend's new laptop, or tinkering with my system to the wire,
+            I've done it all.
           </p>
           <p>
             As a software developer, I enjoy building web applications that are scalable and robust under the hood.
