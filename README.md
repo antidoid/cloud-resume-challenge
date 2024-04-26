@@ -20,5 +20,5 @@ What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresu
 
 ## Author
 - Twitter: [@piyshsingh998](https://twitter.com/piyushsingh998)
-- LinkedIn: [piyushsingh998](https://linked.com/in/piyushsingh998)
+- LinkedIn: [piyushsingh998](https://linkedin.com/in/piyushsingh998)
   
