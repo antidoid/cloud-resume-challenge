@@ -10,7 +10,7 @@ What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresu
 **Services Used**:
 
 - Blob Storage
-- Azure DNS
+- Azure CDN
 - Azure Functions
 - CosmosDB
 - GitHub Actions
