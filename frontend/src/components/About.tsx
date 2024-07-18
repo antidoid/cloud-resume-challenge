@@ -1,5 +1,5 @@
 import PP from "../assets/pp.jpg";
-import DoraemonImg from "../assets/joy.png"
+import DoraemonImg from "../assets/joy.png";
 
 function About() {
   return (
@@ -126,30 +126,40 @@ function About() {
           </div>
         </div>
         <div className="mt-4 md:mt-0 flex grow flex-col gap-4 font-poppins font-extralight md:w-3/5 text-white/90 text-xl">
-          <p>Hey there, I'm Piyush from Bangalore, Karnataka, a college student pursuing computer science<span className="mx-2">🖥️</span>
+          <p>
+            Hey there, I'm Piyush from Bangalore, Karnataka, a college student
+            pursuing computer science<span className="mx-2">🖥️</span>
             with a passion for building and automating things for the web.
           </p>
           <p>
-            My interest in computers began probably when I first saw one on television while watching{" "}
+            My interest in computers began probably when I first saw one on
+            television while watching{" "}
             <span className="text-cerulean font-semibold">Doraemon</span>
-            <img className="w-6 h-6 mx-2 inline-block" src={DoraemonImg} alt="Doraemon joy face" />.
-            Since then, I've been hooked — whether it's reading computer books, sketching laptops,
-            trying out games on a friend's new laptop, or tinkering with my system to the wire,
-            I've done it all.
+            <img
+              className="w-6 h-6 mx-2 inline-block"
+              src={DoraemonImg}
+              alt="Doraemon joy face"
+            />
+            . Since then, I've been hooked — whether it's reading computer
+            books, sketching laptops, trying out games on a friend's new laptop,
+            or tinkering with my system to the wire, I've done it all.
           </p>
           <p>
-            As a software developer, I enjoy building web applications that are scalable and robust under the hood.
-            I'm also passionate about backend development using tools like
-            Python, Go, Azure and Terraform, but love building with whatever tools are right for the job.
+            As a software developer, I enjoy building web applications that are
+            scalable and robust under the hood. I'm also passionate about
+            backend development using tools like Python, Go, Azure and
+            Terraform, but love building with whatever tools are right for the
+            job.
           </p>
           <p>
-            When I'm not in front of a computer screen, you can probably find me running
-            in the park, or playing badminton or cricket.{" "}
-            <span className="text-cerulean font-semibold">Thanks</span> for stopping by my portfolio!
+            When I'm not in front of a computer screen, you can probably find me
+            running in the park, or playing badminton or cricket.{" "}
+            <span className="text-cerulean font-semibold">Thanks</span> for
+            stopping by my portfolio!
           </p>
         </div>
       </div>
-    </div >
+    </div>
   );
 }
 

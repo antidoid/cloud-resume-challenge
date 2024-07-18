@@ -1,8 +1,8 @@
 import Certificate from "./Certificate";
 import az204 from "../assets/az204.png";
 import az900 from "../assets/az900.png";
-import awscp from "../assets/awscp.png";
-import ml from "../assets/ml_regression_classification.png";
+import ghf from "../assets/ghf.png";
+import ai900 from "../assets/ai900.png";
 
 function Certification() {
   return (
@@ -28,14 +28,14 @@ function Certification() {
           certLink="https://learn.microsoft.com/api/credentials/share/en-us/Piyushsingh-5881/5AC677A78A015901?sharingId=F1908318814FC2CB"
         />
         <Certificate
-          certSrc={awscp}
-          certName="AWS Cloud Practitioner"
-          certLink="https://www.credly.com/badges/e441847e-9a17-4868-ba3b-ed0d15bd37d5/public_url"
+          certSrc={ghf}
+          certName="Github Foundations"
+          certLink="https://www.credly.com/badges/cee2b15c-8bbf-421f-9edb-d41dbfaf4caf/public_url"
         />
         <Certificate
-          certSrc={ml}
-          certName="Supervised Machine Learning"
-          certLink="https://coursera.org/share/38b241052f94da4470945a0e7fd8aa1b"
+          certSrc={ai900}
+          certName="AI-900"
+          certLink="https://learn.microsoft.com/api/credentials/share/en-us/Piyushsingh-5881/843C5B30DD348A2?sharingId=F1908318814FC2CB"
         />
       </div>
     </div>

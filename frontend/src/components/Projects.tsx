@@ -1,8 +1,8 @@
 import { Project } from "./Project";
-import SpotArtImg from "../assets/projects/spotart.png"
-import AZQRCodeImg from "../assets/projects/az-qr-code.png"
-import QuizzicalImg from "../assets/projects/quizzical.png"
-import CloudResumeChallengeImg from "../assets/projects/cloud-resume-challenge.png"
+import SpotArtImg from "../assets/projects/spotart.png";
+import AZQRCodeImg from "../assets/projects/az-qr-code.png";
+import CookbooksImg from "../assets/projects/cookbooks.png";
+import CloudResumeChallengeImg from "../assets/projects/cloud-resume-challenge.png";
 
 function Projects() {
   return (
@@ -26,12 +26,12 @@ function Projects() {
           projectShortDesc="A beautiful webpage to check out your favourite music artists."
         />
         <Project
-          githubLink="https://github.com/antidoid/quizzical"
-          projectName="Quizzical"
-          projectLink="https://antidoid.github.io/quizzical"
-          projectSrc={QuizzicalImg}
-          tools={["React", "JavaScript", "CSS", "OpenTriviaDB"]}
-          projectShortDesc="A quiz app using the Open Trivia DB and React"
+          githubLink="https://github.com/antidoid/cookbooks"
+          projectName="Cookbooks"
+          projectLink="https://cookbooksstorage.z29.web.core.windows.net/"
+          projectSrc={CookbooksImg}
+          tools={["Shadcn", "Node", "MySQL", "Azure Container Apps"]}
+          projectShortDesc="A website to share and discover new recipes"
         />
         <Project
           githubLink="https://github.com/antidoid/cloud-resume-challenge"
@@ -46,7 +46,12 @@ function Projects() {
           projectName="QR Code Gen"
           projectLink="https://antidoid.github.io/az-qr-code"
           projectSrc={AZQRCodeImg}
-          tools={["TypeScript", "Python", "Azure BLOB Storage", "Azure Function"]}
+          tools={[
+            "TypeScript",
+            "Python",
+            "Azure BLOB Storage",
+            "Azure Function",
+          ]}
           projectShortDesc="A Dynamic QR Code Generator with so many colors and styles to choose from."
         />
       </div>
