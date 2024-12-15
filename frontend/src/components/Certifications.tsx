@@ -1,4 +1,5 @@
 import Certificate from "./Certificate";
+import az400 from "../assets/az400.png";
 import az204 from "../assets/az204.png";
 import az900 from "../assets/az900.png";
 import ghf from "../assets/ghf.png";
@@ -17,6 +18,11 @@ function Certification() {
         </h2>
       </div>
       <div className="pt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <Certificate
+          certSrc={az400}
+          certName="AZ-400"
+          certLink="https://learn.microsoft.com/api/credentials/share/en-us/Piyushsingh-5881/5AC3D1F948488D4F?sharingId=F1908318814FC2CB"
+        />
         <Certificate
           certSrc={az204}
           certName="AZ-204"
