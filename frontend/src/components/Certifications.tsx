@@ -4,6 +4,7 @@ import az204 from "../assets/az204.png";
 import az900 from "../assets/az900.png";
 import ghf from "../assets/ghf.png";
 import ai900 from "../assets/ai900.png";
+import gcpcdl from "../assets/gcpcdl.png";
 
 function Certification() {
   return (
@@ -27,6 +28,11 @@ function Certification() {
           certSrc={az204}
           certName="AZ-204"
           certLink="https://learn.microsoft.com/api/credentials/share/en-us/Piyushsingh-5881/579D86812F79DFCE?sharingId=F1908318814FC2CB"
+        />
+        <Certificate
+          certSrc={gcpcdl}
+          certName="GCP-CDL"
+          certLink="https://www.credly.com/badges/8e148ae2-356a-4a15-821d-67837a0f0438/public_url"
         />
         <Certificate
           certSrc={az900}
