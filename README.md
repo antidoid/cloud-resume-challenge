@@ -18,7 +18,10 @@ What is Cloud Resume Challenge? - [The Cloud Resume Challenge](https://cloudresu
 
 ## [Live Demo 🔗](https://www.piyushsingh.me)
 
+
+## TO-DO
+- [ ] Add a carousel for certifications
+
 ## Author
 - Twitter: [@piyshsingh998](https://twitter.com/piyushsingh998)
 - LinkedIn: [piyushsingh998](https://linkedin.com/in/piyushsingh998)
-  
