@@ -127,8 +127,9 @@ function About() {
         </div>
         <div className="mt-4 md:mt-0 flex grow flex-col gap-4 font-poppins font-extralight md:w-3/5 text-white/90 text-xl">
           <p>
-            Hey there, I'm Piyush from Bangalore, India, a college student
-            pursuing computer science<span className="mx-2">🖥️</span>
+            Hey there, I'm Piyush from Bangalore, IN
+            <span className="mx-2">🇮🇳</span>, a CS undergrad
+            <span className="mx-2">🖥️</span>
             with a passion for building and automating things for the web.
           </p>
           <p>
@@ -136,7 +137,7 @@ function About() {
             television while watching{" "}
             <span className="text-cerulean font-semibold">Doraemon</span>
             <img
-              className="w-6 h-6 mx-2 inline-block"
+              className="size-6 mx-2 inline-block"
               src={DoraemonImg}
               alt="Doraemon joy face"
             />
