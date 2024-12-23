@@ -127,7 +127,7 @@ function About() {
         </div>
         <div className="mt-4 md:mt-0 flex grow flex-col gap-4 font-poppins font-extralight md:w-3/5 text-white/90 text-xl">
           <p>
-            Hey there, I'm Piyush from Bangalore, Karnataka, a college student
+            Hey there, I'm Piyush from Bangalore, India, a college student
             pursuing computer science<span className="mx-2">🖥️</span>
             with a passion for building and automating things for the web.
           </p>
